@@ -33,7 +33,7 @@ export default {
     data() {
         return{
             filter: "All",
-            filters: ['All', 'str1', 'str2', 'str3', 'str4', 'str5'],
+            filters: ["All", "str1", "str2", "str3", "str4", "str5"],
         }
     },
     computed: {
