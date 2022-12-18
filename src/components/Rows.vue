@@ -4,7 +4,7 @@
             <div class="sum-col3">
                 Sum: {{sumRows}}
             </div>
-            <div class="sum-col4">
+            <div class="average-col4">
                 Average: {{averageRows}}
             </div>
             <select id="filter" v-model="filter">
@@ -83,7 +83,7 @@ export default {
     grid-column: 3/4;
     justify-self: start;
 }
-.sum-col4{
+.average-col4{
     grid-column: 4/5;
     justify-self: start;
 }
